@@ -1,19 +1,47 @@
-# Ex-4 Vigenere Cipher
+# Ex-4 VIGENERE CIPHER 
 
-Vigenere Cipher using with different key values
+<br>
+
+## DATE:
+
+<br>
 
 ## AIM:
+
+<br>
+
 To develop a simple C program to implement Vigenere Cipher.
+
+<br>
 
 ## DESIGN STEPS:
 
+<br>
+
 Step 1: Design of Vigenere Cipher algorithnm
+
+<br>
 
 Step 2: Implementation using C or pyhton code
 
-Step 3: Testing algorithm with different key values. ALGORITHM DESCRIPTION: The Vigenere cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. It is a simple form of polyalphabetic substitution.To encrypt, a table of alphabets can be used, termed a Vigenere square, or Vigenere table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows used. The alphabet at each point depends on a repeating keyword.
+<br>
+
+Step 3: Testing algorithm with different key values. 
+
+<br>
+
+## ALGORITHM DESCRIPTION: 
+
+<br>
+
+The Vigenere cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. It is a simple form of polyalphabetic substitution.To encrypt, a table of alphabets can be used, termed a Vigenere square, or Vigenere table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows used. The alphabet at each point depends on a repeating keyword.
+
+<br>
 
 ## PROGRAM:
+
+<br>
+
 ```
 #include <iostream>
 #include <cstring>
@@ -74,10 +102,19 @@ int main() {
     return 0;
 }
 ```
+
+<br>
+
 ## OUTPUT:
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/58c0115c-3d01-4782-b0e7-be076a1febf5)
 
+<br>
+
 ## RESULT:
+
+<br>
 
 The program is executed successfully
